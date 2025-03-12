@@ -44,7 +44,7 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/Sanzith" target="blank">
+            <a href="https://github.com/Sanzith-Alam" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
               </span>
