@@ -8,7 +8,7 @@ import Card from './Card';
 const Features = () => {
   return (
     <section
-      id="features"
+      
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <Title title="Features" des="What I Do" />
