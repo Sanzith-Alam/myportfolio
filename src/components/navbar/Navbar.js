@@ -10,14 +10,14 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-black mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className=' m-12 text-bold text-2xl'>
-      <h1 style={{ fontSize: '30px' }}>Sanzith</h1>
+      <div className=' m-12 text-bold text-4xl '>
+      <h1 >Sanzith</h1>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center m-14 gap-6 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              className="text-base text-2xl font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
               <Link
@@ -44,11 +44,7 @@ const Navbar = () => {
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
-                I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
-                </p>
+                
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
