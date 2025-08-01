@@ -30,8 +30,10 @@ const Skills = () => {
             Features
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Design Skill</h2>
-          <ProgressBar skill="Figma" percentage={60} />
-          <ProgressBar skill="UI/UX Design" percentage={80} />
+          <ProgressBar skill="Figma" percentage={50} />
+          <ProgressBar skill="Canva" percentage={80} />
+          <ProgressBar skill="Adove Express" percentage={80} />
+          
         </div>
       </div>
       
@@ -43,11 +45,11 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
         </div>
         <div className="flex flex-col gap-6">
-          <ProgressBar skill="React" percentage={70} />
-          <ProgressBar skill="HTML 5" percentage={80} />
-          <ProgressBar skill="CSS3" percentage={80} />
+          <ProgressBar skill="React" percentage={80} />
+          <ProgressBar skill="Typescript" percentage={70} />
+          <ProgressBar skill="Tailwind CSS" percentage={90} />
           <ProgressBar skill="JavaScript" percentage={75} />
-          <ProgressBar skill="Software Development" percentage={70} />
+          
         </div>
       </div>
     </motion.div>

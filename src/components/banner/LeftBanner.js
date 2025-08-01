@@ -7,7 +7,7 @@ import {
   FaReact,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs, SiNodedotjs, SiMongodb } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiTypescript, SiNodedotjs, SiMongodb } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -75,7 +75,7 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNodedotjs />
+              <SiTypescript />
             </span>
             <span className="bannerIcon">
               <SiTailwindcss />
