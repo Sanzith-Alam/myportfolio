@@ -7,7 +7,7 @@ import {
   FaReact,
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiTypescript, SiNodedotjs, SiMongodb } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiMongodb } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
