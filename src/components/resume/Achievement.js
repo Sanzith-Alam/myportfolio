@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
-import { certificate1, Coursera } from "../../assets/index"; // Ensure correct import
+import { certificate1, Coursera,simpilearn } from "../../assets/index"; // Ensure correct import
 
 const Achievement = () => {
   return (
@@ -46,6 +46,22 @@ const Achievement = () => {
             <img
               src={certificate1}
               alt="GreatStack Certificate"
+              className="max-w-full sm:max-w-[250px] md:max-w-[300px] h-auto rounded-lg shadow-md border border-gray-300"
+            />
+          </div>
+          {/* Certificate 3 */}
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
+            <ResumeCard
+              title="ReactJs for Beginners"
+              subTitle="SkillUp -Simplilearn"
+              result="Completed"
+              des="This professional has demonstrated initiative and a commitment to deepening their skills and
+their career."
+
+            />
+            <img
+              src={simpilearn}
+              alt="Simplilearn"
               className="max-w-full sm:max-w-[250px] md:max-w-[300px] h-auto rounded-lg shadow-md border border-gray-300"
             />
           </div>

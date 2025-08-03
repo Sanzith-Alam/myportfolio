@@ -9,6 +9,7 @@ import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import certificate1 from './images/certificate/certificate1.png'
 import Coursera from './images/certificate/Coursera.jpg'
+import simpilearn from './images/certificate/simpilearn.png'
 
 export {
   logo,
@@ -22,4 +23,5 @@ export {
   contactImg,
   Coursera,
   certificate1,
+  simpilearn,
 };
